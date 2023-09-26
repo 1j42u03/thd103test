@@ -1,0 +1,26 @@
+section.pangolinContext {
+  border: 1px solid brown;
+  display: flex;
+}
+
+ul.pangolinClass {
+  border: 1px solid red;
+  padding: 0;
+  list-style: none;
+  margin: 8px;
+  overflow: hidden;
+  width: 100%;
+}
+
+ul.pangolinClass li.pcPic img.pcPicBig {
+  position: relative;
+}
+
+ul.pangolinClass li.pcPic span.pcPrice {
+  display: inline-block;
+  position: relative;
+  bottom: 180px;
+  left: 260px;
+  padding: 8px;
+  border: 1px solid black;
+}

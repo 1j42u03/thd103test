@@ -1,0 +1,93 @@
+header ul li.hh2 {
+  /* background-color: #FFC76C; */
+  padding: 0 16px;
+  /* opacity: .5; */
+}
+
+/* ====nav====== */
+
+nav {
+  border: 1px solid purple;
+  margin: 0 auto;
+  width: 1440px;
+}
+
+nav>ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0;
+}
+
+nav>ul>li {
+  border: 1px solid #FFC76c;
+  margin: 8px;
+}
+
+nav>ul>li:hover {
+  background-color: #FFC76C;
+}
+
+nav>ul>li a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 40px;
+  position: relative;
+  /* 想要至中*/
+  top: 9px;
+}
+
+nav>ul>li a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+nav li.navSearch {
+  padding: 0;
+}
+
+nav li.navSearch input {
+  height: 40px;
+  width: 250px;
+}
+
+
+/* =====banner===== */
+div.banner {
+  margin: 0 auto;
+  width: 1440px;
+  position: relative;
+}
+
+div.bannerPic {
+  border: 1px solid red;
+  width: 1440px;
+  height: 640px;
+  overflow: hidden;
+
+}
+
+div.banner span.arrowLeft>img {
+  /* border: 2px solid red; */
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  position: absolute;
+}
+
+div.banner span.arrowRight>img {
+
+  position: absolute;
+  /* border: 2px solid red; */
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  position: absolute;
+}

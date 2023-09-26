@@ -1,0 +1,86 @@
+header {
+  border: 1px solid black;
+  overflow: hidden;
+  width: 1440px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  /* background-color: brown; */
+  background-image: url(/vscode-workspace/個專/images/background.png)
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0px;
+}
+
+/* .header ul>li {
+  border: 1px solid blue;
+} */
+
+header a.logo {
+  /* border: 1px solid red; */
+  display: inline-block;
+  overflow: hidden;
+  margin: 8px 40px;
+  width: 200px;
+  height: 200px;
+}
+
+header a.logo>img {
+  max-width: 100%;
+
+}
+
+.header ul>li.hh2 {
+  padding-top: 40px;
+}
+
+.header ul>li.hh3 {
+  display: flex;
+  align-items: flex-end;
+}
+
+header h1.title {
+  font-size: 80px;
+  text-align: center;
+  margin: 0;
+}
+
+header h2.enName {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+.header ul>li.hh3>span {
+  margin: 8px;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+.header ul>li.hh3>span a {
+  text-decoration: none;
+  padding: 8px 10px;
+}
+
+.header ul>li.hh3>span.cart a::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  right: 4px;
+
+  background-image: url(/vscode-workspace/個專/images/icon/cart-shopping-solid.svg
+);
+  background-size: contain;
+  position: relative;
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+}

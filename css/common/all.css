@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* background-image: url(/vscode-workspace/個專/images/background.png); */
+  background-image: linear-gradient(#fff, #FFC76C);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+div.index {
+  border: 1px solid blue;
+  margin: 0 auto;
+  width: 1440px;
+}
+
+
+/* ===breadcrumb=== */
+nav.breadcrumb {
+  border: 1px solid purple;
+  width: 1440px;
+}
+
+nav.breadcrumb ol {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav.breadcrumb ol a {
+  text-decoration: none;
+  padding: 8px;
+}
+
+nav.breadcrumb ol li {
+  margin: 4px;
+}

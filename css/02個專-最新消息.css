@@ -1,0 +1,97 @@
+/* ======remind====== */
+
+div.remind ul.bigRemind {
+  border: 1px solid red;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+
+}
+
+div.remind ul.bigRemind li.remind1,
+div.remind ul.bigRemind li.remind2,
+div.remind ul.bigRemind li.remind3 {
+  border: 1px solid black;
+  margin: 40px;
+  padding: 16px;
+  padding-top: 0;
+  /* flex-grow(平均分配內容物) ▼ */
+  flex: 1;
+}
+
+
+div.remind ul.bigRemind li.remind1 h3,
+div.remind ul.bigRemind li.remind2 h3,
+div.remind ul.bigRemind li.remind3 h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 8px;
+}
+
+
+/* ====回顧==== */
+/* ====圖文區===== */
+div.review {
+  border: 1px solid blue;
+  display: flex;
+  min-width: 100%;
+
+}
+
+div.review div.reviewText ul.reviewText {
+  border: 1px solid green;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+div.review div.reviewText ul.reviewText li {
+  border: 1px solid black;
+  display: flex;
+  margin: 28px;
+
+}
+
+div.review div.reviewText ul.reviewText li div {
+  margin: 16px;
+}
+
+div.review div.reviewText ul.reviewText li div.reviewTitleTime {
+  display: flex;
+  margin: 8px 0;
+}
+
+div.review div.reviewText ul.reviewText li div.reviewTitleTime h4 {
+  margin: 0;
+}
+
+/* ====時間軸=== */
+div.review div.reviewTime {
+  border: 3px solid purple;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  /* position: fixed 元素會相對於瀏覽器視窗來定位 */
+  /* bottom: 20px;
+  right: 0px;
+  width: 120px;
+  background: white;  */
+}
+
+div.review div.reviewTime div.hslice h4 {
+  font-size: 20px;
+  text-align: center;
+  padding: 0px;
+  margin: 8px;
+  width: 100px;
+}
+
+div.review div.reviewTime div.inner-box h6 {
+  cursor: pointer;
+  font-size: 20px;
+  margin: 8px;
+  text-align: center;
+  width: 100px;
+}

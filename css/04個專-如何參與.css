@@ -1,0 +1,25 @@
+div.index {
+  display: flex;
+}
+
+section.join {
+  border: 1px solid red;
+  margin: 20px;
+  text-align: center;
+  position: relative;
+  padding: 8px;
+
+}
+
+
+section.join h4 {
+  padding: 20px 0px;
+  margin: 8px;
+  font-size: 40px;
+  border: 1px solid red;
+}
+
+section.join div.joinText {
+  text-align: justify;
+  padding: 0 8px;
+}

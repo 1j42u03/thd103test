@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .activity {
+      border: 1px solid red;
+      display: flex;
+      flex-wrap: wrap;
+      /* justify-content: center; */
+    }
+
+    .activity input {
+
+      display: none
+    }
+
+    .activity label {
+      border: 1px solid blue;
+      margin: 0 5px 5px 0;
+      padding: 10px 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      background: #999;
+      color: #fff;
+      opacity: 0.5;
+    }
+
+    .tabText {
+      border: 3px solid green;
+      order: 1;
+      /*順序從最小排到最大*/
+      display: none;
+      width: 100%;
+      border-bottom: 3px solid #ddd;
+      line-height: 1.6;
+      font-size: .9em;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .activity input:checked+label,
+    .activity label:hover {
+      opacity: 1;
+      font-weight: bold;
+    }
+
+    .activity input:checked+label+.tabText {
+      display: initial;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+
+
+
+
+  <section class="activity">
+
+    <!-- TAB1 打包區塊 start -->
+    <input id="tab1" type="radio" name="tab" checked="checked" />
+    <label for="tab1">頁籤 1</label>
+    <div class="tabText">
+      第 1 個頁籤內容區塊<br />
+      WFU BLOG | Blogger 調校資料庫<br />
+    </div>
+    <!-- TAB1 打包區塊 end -->
+
+    <!-- TAB2 打包區塊 start -->
+    <input id="tab2" type="radio" name="tab" />
+    <label for="tab2">頁籤 2</label>
+    <div class="tabText">
+      第 2 個頁籤內容區塊<br />
+      WFU BLOG | Blogger 調校資料庫<br />
+      第 2 個頁籤內容區塊<br />
+      WFU BLOG | Blogger 調校資料庫<br />
+    </div>
+    <!-- TAB2 打包區塊 end -->
+
+    <!-- TAB3 打包區塊 start -->
+    <input id="tab3" type="radio" name="tab" />
+    <label for="tab3">頁籤 3</label>
+    <div class="tabText">
+      第 3 個頁籤內容區塊<br />
+      WFU BLOG | Blogger 調校資料庫<br />
+      第 3 個頁籤內容區塊<br />
+      WFU BLOG | Blogger 調校資料庫<br />
+      第 3 個頁籤內容區塊<br />
+      WFU BLOG | Blogger 調校資料庫<br />
+    </div>
+    <!-- TAB3 打包區塊 end -->
+
+  </section>
+
+
+
+
+
+</body>
+
+</html>

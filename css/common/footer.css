@@ -1,0 +1,135 @@
+footer {
+  border: 1px solid black;
+  overflow: hidden;
+  width: 1440px;
+  margin: 0 auto;
+  /* 居中對齊 */
+  /* background-image: url(/vscode-workspace/個專/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+
+}
+
+ul.bigF1 {
+  padding: 0;
+  /* border: 2px solid red; */
+  width: 100%;
+  margin: 0 auto;
+  /* 使用百分比宽度，適用不同屏幕 */
+  text-align: center;
+
+}
+
+ul.bigF1 li.ff1 ul.smallF1 li,
+ul.bigF1 li.ff2 ul.smallF2 li {
+  border: 2px double white;
+  list-style: none;
+}
+
+
+footer ul.bigF1 li.ff1 ul.smallF1,
+footer ul.bigF1 li.ff2 ul.smallF2 {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+footer ul.bigF1 li.ff1 ul.smallF1 li,
+footer ul.bigF1 li.ff2 ul.smallF2 li {
+  display: flex;
+  margin: 8px;
+  /* padding: 0 40px; */
+}
+
+/* footer ul.bigF1 li.ff2 ul.smallF2 li {
+  border: 1px solid gray;
+} */
+
+
+footer ul.bigF1 li.ff1 ul.smallF1 li a,
+footer ul.bigF1 li.ff2 ul.smallF2 li a {
+
+  text-decoration: none;
+  padding: 8px 40px;
+  color: white;
+}
+
+footer ul.bigF1 li.ff1 ul.smallF1 li :hover,
+footer ul.bigF1 li.ff2 ul.smallF2 li :hover {
+  background-color: white;
+
+}
+
+footer ul.bigF1 li.ff1 ul.smallF1 li a:hover,
+footer ul.bigF1 li.ff2 ul.smallF2 li a:hover {
+  color: #FFC76C;
+  font-weight: bold;
+}
+
+/* ==粉專icon== */
+
+footer ul.bigF1 li.ff2 ul.smallF2 li.fFb ::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  right: 4px;
+  bottom: 2px;
+
+  background-image: url(/vscode-workspace/個專/images/icon/square-facebook.svg
+);
+  background-size: contain;
+  position: relative;
+  top: 1px;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
+
+/* ==信箱icon== */
+footer ul.bigF1 li.ff2 ul.smallF2 li.fMail ::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  right: 4px;
+
+
+  background-image: url(/vscode-workspace/個專/images/icon/mail.svg
+);
+  background-size: contain;
+  position: relative;
+  top: 4px;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
+
+
+/* ==地址icon== */
+footer ul.bigF1 li.ff2 ul.smallF2 li.fLocation ::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  right: 4px;
+
+  background-image: url(/vscode-workspace/個專/images/icon/location-dot-solid.svg
+);
+  background-size: contain;
+  position: relative;
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+
+}
+
+/* ==所有權== */
+ul.bigF1 ul.smallF3 {
+  padding: 8px;
+}
+
+ul.bigF1 ul.smallF3 li {
+  border: none;
+  padding: 4px 16px;
+  margin: 4px;
+}
